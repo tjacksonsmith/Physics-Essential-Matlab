@@ -1,0 +1,9 @@
+% Created by Timothy Smith
+% March 11th 2016
+%_________________________
+E= 0.5:1:10.5;
+Mu=5000:1000:15000;
+beta=(8.62*10.^-5*5800);
+d=repmat(1,1,11);
+G=E-Mu
+fermi=(d/(exp(-G/beta)+1))

@@ -1,7 +1,6 @@
-% Timothy Smith
-% 4/7/16
-%___________________
-function x= quadratic(a,b,c) 
+function [x] =quadratic(a,b,c )
+%UNTITLED2 Summary of this function goes here
+%   Detailed explanation goes here
 if  a==0 & b==0 & c==0
     disp ('')
     disp('Solution indeterminate')
@@ -34,3 +33,5 @@ else
     disp([x1 x2]);
 end
 end
+
+
